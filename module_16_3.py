@@ -30,3 +30,5 @@ async def delete_user(user_id: str):
         return f'User {user_id} has been deleted'
     else:
         return 'User not found'
+
+
